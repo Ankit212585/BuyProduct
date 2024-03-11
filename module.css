@@ -93,6 +93,8 @@ img {
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     position: absolute;
+      top: 15%;
+    left: 15%;
 
 }
 
@@ -174,6 +176,7 @@ label {
     .payment {
         width: 70%;
         height:800px;
+           left: 0;
     }
 
     .cardInfo {
