@@ -37,8 +37,9 @@
 
 .cat:hover {
     border-radius: 10px;
-    background-color: crimson;
+    background-color: blue;
     padding: 10px;
+    color: white;
 
     cursor: pointer;
 }
@@ -72,9 +73,9 @@
 }
 
 img {
-    width: 150px;
-    height: 250px;
-    /* object-fit: contain; */
+    width: 2000px;
+    
+    
 }
 
 /* This is our payment Section */
