@@ -41,6 +41,34 @@ const data = [
     price: 74,
     cat: "Casual",
   },
+   {
+    id: 6,
+    name: "Garmin Venu Smartwatch ",
+    img: "https://img.freepik.com/free-photo/stylish-golden-watch-white-surface_181624-27078.jpg?t=st=1710152645~exp=1710156245~hmac=ed46dcb1a5c0c6a6da68314aab752bab4634d68c82381eb73f778ba963276999&w=740",
+    price: 55,
+    cat: "Luxury",
+  },
+  {
+    id: 7,
+    name: "Garmin Venu Smartwatch ",
+    img: "https://img.freepik.com/free-photo/closeup-shot-golden-watch-isolated_181624-28492.jpg?t=st=1710153007~exp=1710156607~hmac=7c3c919bffaddabd29e125981188c673fe05c0dee9442bd69647fcbe33783fb5&w=740",
+    price: 80,
+    cat: "Luxury",
+  },
+  {
+    id: 8,
+    name: "Garmin Venu Smartwatch ",
+    img: "https://img.freepik.com/premium-photo/watch-with-brown-leather-band-roman-numerals-it-with-white-background_783884-2885.jpg?w=740",
+    price: 150,
+    cat: "Dress",
+  },
+  {
+    id: 9,
+    name: "Garmin Venu Smartwatch ",
+    img: "https://img.freepik.com/premium-vector/white-clock-face-with-black-red-pointer-roman-numerals_136321-377.jpg?w=740",
+    price: 180,
+    cat: "Casual",
+  },
 ];
 
 // Get All the components in HTMl
