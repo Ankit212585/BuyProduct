@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="Container">
+      <div class="leftMenu">
+        <input type="text" placeholder="Search..." class="Search" />
+        <h1 class="leftText">Categories</h1>
+
+        <div class="cats"></div>
+        <h1>Maximum Price</h1>
+        <div class="price">
+          <input type="range" class="priceRange" />
+          <span class="priceValue"></span>
+        </div>
+      </div>
+      <div class="content">
+        <div class="products"></div>
+      </div>
+
+      <!-- This is our payment Section -->
+      <div class="payment">
+        <h1 class="payTitle">Personal Information</h1>
+        <label>Name and surname</label>
+        <input type="text" placeholder="John Deo" class="payInput" />
+        <label>Phone Number</label>
+        <input type="text" placeholder=" +444 915 547" class="payInput" />
+        <label>Address</label>
+        <input
+          type="text"
+          placeholder="sector-6 House No-2546 flat-No 2nd"
+          class="payInput"
+        />
+        <!-- This is our Payment Card Section -->
+
+        <h1 class="payTitle">Card Information</h1>
+        <div class="cardIcons">
+          <img src="./img/visa.png" alt="logo" class="cardIcon" />
+          <img src="./img/master.png" alt="logo" class="cardIcon" />
+        </div>
+        <input type="text" placeholder="Card Number" class="payInput" />
+        <div class="cardInfo">
+          <input type="text" placeholder="mm" class="payInput sm" />
+          <input type="text" placeholder="yyyy" class="payInput sm" />
+          <input type="text" placeholder="cvv" class="payInput sm" />
+        </div>
+        <button class="payButton">Checkout</button>
+        <span class="close">×</span>
+      </div>
+    </div>
+
+    <link type="text/css" rel="styleSheet" href="./module.css" />
+    <script src="./index.js"></script>
+  </body>
+</html>

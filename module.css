@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Container {
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+/* This is my left container */
+.leftMenu {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.Search {
+    padding: 8px 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+
+}
+
+.cats {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cat {
+    padding: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.cat:hover {
+    border-radius: 10px;
+    background-color: crimson;
+    padding: 10px;
+
+    cursor: pointer;
+}
+
+
+
+/* This is my right container */
+.content {
+    flex: 4;
+    position: relative;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 350px;
+
+}
+
+.name {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+img {
+    width: 150px;
+    height: 250px;
+    /* object-fit: contain; */
+}
+
+/* This is our payment Section */
+.payment {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    background: #ffffff;
+    display: none;
+    flex-direction: column;
+    padding: 10px 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: absolute;
+
+}
+
+.payTitle {
+    color: rgb(191, 188, 188);
+    margin: 10px 0px;
+}
+
+.cardInfo {
+    display: flex;
+    gap: 24px;
+}
+
+.payInput {
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0px 18px 0px;
+}
+
+.payInput::placeholder {
+    color: lightgray;
+}
+
+label {
+    font-size: 18px;
+}
+
+
+.cardIcon {
+    width: 40px;
+    margin: 0px 0px 0px 5px;
+}
+
+.close {
+    font-size: 30px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    /* background: black; */
+    /* color: white; */
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    cursor: pointer;
+    /* border-radius: 10px; */
+    padding: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.close:hover {
+    background: red;
+    color: white;
+}
+
+.payButton {
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    background: #369e62;
+    color: white;
+    padding: 8px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .content {
+        margin-top: 50px !important;
+    }
+
+    .Container {
+        padding: 20px 20px;
+    }
+
+    .payment {
+        width: 70%;
+        height: 90%;
+    }
+
+    .cardInfo {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+}
