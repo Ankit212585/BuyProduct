@@ -178,10 +178,14 @@ label {
     .Container {
         padding: 20px 20px;
     }
+      .product {
+        width: 350px;
+    }
+
 
     .payment {
         width: 70%;
-        height: 90%;
+        height:800px;
     }
 
     .cardInfo {
